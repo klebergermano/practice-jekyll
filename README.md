@@ -1,4 +1,4 @@
-# Practice Jekyll
+# Practicing Jekyll
 This is a blog used for practicing Jekyll and Liquid.
 
 

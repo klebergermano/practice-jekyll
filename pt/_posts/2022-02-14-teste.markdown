@@ -1,0 +1,11 @@
+---
+layout: default
+title:  "Teste de pasta"
+date:   2022-02-14 15:02:25 -0300
+categories: jekyll update
+lang: pt
+lang-ref: test_folder
+
+---
+
+Conteudo teste da pasta "teste_pt"

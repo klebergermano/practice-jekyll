@@ -1,3 +1,17 @@
 <header>
-    <h1>Practing Jekyll</h1>
+    <h1>Practicing Jekyll</h1>
+{{page.lang}}
+
+    <ul>
+      {% for menu in site.data.translations.menu[page.lang] %}
+       <li><a href="{{menu[1].url}}">{{menu[1].name}}</a></li>
+      {% endfor %}
+    </ul>
+
+    {% if page.layout != 'index' %}
+  {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+  {% if posts.size == 0 %}
+    {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+  {% endif %}
+{% endif %}
 </header>
