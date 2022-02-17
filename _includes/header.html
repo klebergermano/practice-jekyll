@@ -1,5 +1,13 @@
 <header>
     <h1>Practicing Jekyll</h1>
+    <p>---------------------------Linguagens aceitas-------------------</p>
+    {% for lang in site.data.languages %}
+    <li><a href='{{ lang[1].base_url }}''>{{lang[1].label}}</a></li>
+    {% endfor %}
+    <p>---------------------------Menu Header-------------------</p>
+
+
+    <p>---------------------------Menu Header-------------------</p>
 {{page.lang}}
 
     <ul>
@@ -14,4 +22,6 @@
     {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
   {% endif %}
 {% endif %}
+<p>--------------------------------------------------------------</p>
+
 </header>

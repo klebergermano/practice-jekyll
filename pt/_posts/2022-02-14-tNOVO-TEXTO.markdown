@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Teste de pasta"
+title:  "Sem equivalente em inglês"
 lang: pt
-lang-ref: test_folder
+lang-ref: sem-equivalente
 
 ---
 
