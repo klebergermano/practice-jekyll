@@ -1,9 +1,0 @@
----
-layout: default
-title:  "Teste de pasta"
-lang: pt
-lang-ref: test_folder
-
----
-
-Conteudo teste da pasta "teste_pt"
